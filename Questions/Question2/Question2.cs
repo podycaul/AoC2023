@@ -1,6 +1,7 @@
 
 using Microsoft.Extensions.Configuration;
 
+// answer: 69110
 public class Question2 : QuestionBase, IQuestion
 {
     public int Number => 2;

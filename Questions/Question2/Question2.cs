@@ -18,7 +18,7 @@ public class Question2 : QuestionBase, IQuestion
     {
         var input = await base.GetQuestionInput();
         // part 1
-        // return GetValidGamesSum(input).ToString();
+        // return GetValidGamesSum(input).ToString();  
 
         // part 2
         return GetPowersOfMinimumSets(input).ToString();
